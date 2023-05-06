@@ -2,11 +2,18 @@
 
 Credits
     Images sourced from Unsplash
-        Name
-        Contact 
+        
+        Name: Hans Eiskonen
+        Contact: @eiskonen
 
-        Name
-        Contact
+        Name: Serhii Tyaglovsky 
+        Contact: @tyaglovsky
+        
+        Name: Sharan Pagadala
+        Contact: @shaarannnnn
 
-        Name
-        Contact 
+        Name: Tiago Alexandre Lopes
+        Contact: @wolfsaintlake
+                
+        Name: Zoe
+        Contact: @_imd
