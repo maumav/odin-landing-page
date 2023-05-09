@@ -27,6 +27,12 @@
  background-color: #1F2937;
 }
 
+.logo-text {
+    color: #F9FAF8;
+    font-size: 24px;
+    
+}
+
 .hero-main {
     color: #F9FAF8;
     font-size: 48px;
@@ -40,6 +46,8 @@
 
 .header-links, a:link, a:visited {
     text-decoration: none;
-    color: #E5E7EB
+    color: #E5E7EB;
+    font-weight: 100;
+
 }
 
