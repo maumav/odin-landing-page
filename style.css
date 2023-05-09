@@ -18,11 +18,6 @@
     width: 100px;
 }
 
-.signup-banner {
-    background-color: #3882f6;
-    width: 500px;
-}
-
 
 .button-signup {
     background-color: #3882F6;
@@ -60,4 +55,19 @@
 
 }
 
+.signup-banner {
+    background-color: #3882f6;
+    width: 500px;
+}
 
+.quote-bg {
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 40px;
+    font-style: italic;
+    
+}
