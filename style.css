@@ -1,23 +1,15 @@
+/*
+.container {
+
+}
+*/
 .sharan-resize {
     width: 200px;
 }
 
-.tiago-resize {
+.img-resize {
     width: 100px;
 }
-
-.hans-resize {
-    width: 100px;
-}
-
-.serhii-resize {
-    width: 100px;
-}
-
-.zoe-resize {
-    width: 100px;
-}
-
 
 .button-signup {
     background-color: #3882F6;
@@ -59,6 +51,11 @@
     color: #1F2937;
     font-size: 36px;
     font-weight: bolder;
+}
+
+.content {
+    color: #1F2937;
+    font-size: 18px;
 }
 
 .signup-banner {
