@@ -23,6 +23,15 @@
     width: 500px;
 }
 
+
+.button-signup {
+    background-color: #3882F6;
+}
+
+.button a:link a:visited {
+    text-decoration: none;
+}
+
 .header, .footer {
  background-color: #1F2937;
 }
@@ -50,4 +59,5 @@
     font-weight: 100;
 
 }
+
 
