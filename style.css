@@ -17,3 +17,12 @@
 .zoe-resize {
     width: 100px;
 }
+
+.signup-banner {
+    background-color: #3882f6;
+    width: 500px;
+}
+
+.header, .footer {
+ background-color: #1F2937;
+}
