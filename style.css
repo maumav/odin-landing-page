@@ -88,32 +88,45 @@ body, .container {
 
 .header, .header-links {
     display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    gap: 20px;
-    margin: 5px;
-    padding: 5px;
+    
    
 }
 
 
+
+.header-links {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: 20px;
+    margin: 5px;
+    padding: 5px;
+}
+
 .hero-main-text {
     display: flex;
+    /*align-items: flex-end; */
 
 }
 
 .hero-main {
     display: flex;
-    margin: 10px;
-    padding: 0px;
-
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    
 }
-
+/*
 .hero-sub-text {
     display: flex;
-   
     align-items: flex-end;
-    justify-content:left;
+    justify-content: flex-end;
+
+}
+*/
+.sharan-resize, .button-signup {
+    display: flex;
 }
 
 .services-header, .content {
