@@ -1,8 +1,6 @@
-/*
 .container {
-
+    display: flex;
 }
-*/
 
 body {
     font-family:Verdana, Geneva, Tahoma, sans-serif
@@ -84,7 +82,24 @@ body {
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
-
-    
 }
 
+/* flex */
+
+nav, .header-links {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px
+}
+
+.hero-main-text {
+    display: flex;
+}
+
+.hero-sub-text {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
