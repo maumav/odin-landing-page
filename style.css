@@ -95,7 +95,9 @@ header {
 
 .nav-left {
     display: flex;
-    border: solid green;
+    border: solid rgb(128, 0, 96);
+    width: 500px;
+    height: 100px;
 }
 
 .nav-right {
@@ -109,27 +111,9 @@ header {
     justify-content: flex-end;
     gap: 10px;
     border: solid green;
+    width: 250px;
+    height: 100px;
 }
-
-/*
-.logo-text, .header-links {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 20px;
-    margin: 5px;
-    padding: 5px;
-}
-*/
-
-/*.hero-main-text {
-    display: flex;
-    border: solid green;
-   align-items: center;
-
-}
- */
 
  
 .hero-main {
@@ -150,20 +134,19 @@ header {
 
 .left-content {
     display: flex;
-    border: solid green;
+    border: solid rgb(16, 174, 236);
     margin: 10px;
     padding: 10px;
+    width: 1000px;
+    height: 200px;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
 
-.button {
-    display: flex;
-}
 
 .img {
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
-    align-content: flex-end;
+    
 }
 
 .services-header, .content {
