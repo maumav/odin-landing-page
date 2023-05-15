@@ -1,7 +1,8 @@
 body, .container {
     display: flex;
     flex-direction: column;
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    flex: 0 1 auto;
 }
 
 .sharan-resize {
@@ -88,10 +89,8 @@ body, .container {
 
 .header{
     display: flex;
-    
-   
+      
 }
-
 
 .logo-text, .header-links {
     display: flex;
@@ -113,8 +112,12 @@ body, .container {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
+    flex-wrap: wrap;
     margin: 5px;
-    padding: 5px;
+    padding: 20px;
+    width: 400px;
+    height: 80px;
+    border: solid green;
     
 }
 
@@ -122,11 +125,19 @@ body, .container {
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
+    align-self: flex-end;
+    width: 400px;
+    height: 80px;
+    margin: 5px;
+    padding: 5px;
+    border: solid green;
 
 }
 
 .sharan-resize, .button-signup {
     display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
 
 .services-header, .content {
