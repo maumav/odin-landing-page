@@ -89,6 +89,9 @@ body, .container {
 
 .header{
     display: flex;
+    border: solid green;
+    width: auto;
+    height: 450px;
       
 }
 
@@ -102,11 +105,13 @@ body, .container {
     padding: 5px;
 }
 
-.hero-main-text {
+/*.hero-main-text {
     display: flex;
-   /* align-items: center; */
+    border: solid green;
+   align-items: center;
 
 }
+ */
 
 .hero-main {
     display: flex;
@@ -134,10 +139,11 @@ body, .container {
 
 }
 
-.sharan-resize, .button-signup {
+.img {
     display: flex;
-    align-items: flex-end;
+    align-items: flex-start;
     justify-content: flex-end;
+    align-content: flex-end;
 }
 
 .services-header, .content {
