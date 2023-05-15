@@ -113,6 +113,7 @@ body, .container {
 }
  */
 
+ /*
 .hero-main {
     display: flex;
     align-items: flex-start;
@@ -137,6 +138,18 @@ body, .container {
     padding: 5px;
     border: solid green;
 
+}
+*/
+
+.left-content {
+    display: block;
+    border: solid green;
+    margin: 10px;
+    padding: 10px;
+}
+
+.button {
+    display: flex;
 }
 
 .img {
