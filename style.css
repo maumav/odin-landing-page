@@ -13,8 +13,30 @@ body, .container {
     width: 100px;
 }
 
-.button-signup {
+.button-signup-1 {
     background-color: #3882F6;
+    border: none;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 0px 2px;
+    border-radius: 12px;
+}
+
+.button-signup-2 {
+    background-color: #3882F6;
+    border: solid white 1px;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 0px 2px;
+    border-radius: 12px;
 }
 
 .button a:link a:visited {
@@ -90,7 +112,8 @@ body, .container {
 
 header {
     display: flex;
-    height: 400px;
+    height: 600px;
+    border: none;
 }
 
 .nav-left {
@@ -100,10 +123,6 @@ header {
     height: 100px;
 }
 
-.nav-right {
-    display: flex;
-    justify-content: flex-end;
-}
 
 .header-links {
     display: flex;
@@ -120,27 +139,34 @@ header {
     display: flex;
     border: solid red;
     width: 500px;
-    height: 100px;
- 
+    height: 60px;
+    padding: 20px;
+    margin-bottom: 0px;
 }
 
 .hero-sub-text {
     display: flex;
     align-items: flex-end;
     height: 80px;
+    width: 500px;
     border: solid pink;
+    padding: 5px;
+    margin-top: 0px;
+    
 }
 
 
 .left-content {
-    display: flex;
+    display: block;
+    flex: 0 1 auto;
     border: solid rgb(16, 174, 236);
-    margin: 10px;
-    padding: 10px;
-    width: 1000px;
-    height: 200px;
-    align-items: flex-end;
-    justify-content: flex-end;
+    margin: 5px;
+    padding: 20px;
+    width: 550px;
+    height: 300px;
+    align-self: center;
+
+
 }
 
 
