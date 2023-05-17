@@ -15,24 +15,204 @@ header {
     
 }
 
-.nav-left {
+
+
+.header-links {
     display: flex;
-    border: solid rgb(128, 0, 96);
+    gap: 10px;
+    outline: 2px solid green;
+
+}
+
+ 
+.hero-main {
+    display: flex;
+    outline: 2px solid red;
+    padding: 20px;
+    margin-bottom: 0px;
+}
+
+.hero-sub-text {
+    display: flex;
+    align-items: flex-end;
+    outline: 5px solid pink;
+    padding: 5px;
+    margin-top: 0px;
+    
+}
+
+
+.left-content {
+    display: flex;
+    flex: 0 1 auto;
+    outline: 2px solid rgb(2, 82, 255);
+    margin: 5px;
+    padding: 20px;
+    width: 550px;
+    height: 300px;
+    align-self: center;
+    justify-content: flex-start;
+
+
+}
+
+
+.services-header, .content {
+    display: flex;
+ 
+}
+
+.quote-text, .quote-bg {
+    display: flex;
+}
+
+.signup-banner {
+    display: block;
+}
+
+.banner-text {
+    display: flex;
+}
+
+.footer {
+    display: flex;
+}
+
+/* styling */
+
+.sharan-resize {
+    width: 200px;
+    height: 300px;
+    
+}   
+
+.img-resize {
+    width: 100px;
+}
+
+.button-signup-1 {
+    background-color: #3882F6;
+    border: none;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 0px 2px;
+    border-radius: 12px;
+}
+
+.button-signup-2 {
+    background-color: #3882F6;
+    border: solid white 1px;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 0px 2px;
+    border-radius: 12px;
+}
+
+.button a:link a:visited {
+    text-decoration: none;
+}
+
+.header, .footer {
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.logo-text {
+    display: flex;
+    color: #F9FAF8;
+    font-size: 24px;
+    margin: 15px;
+    padding: 5px;
+}
+
+.hero-main {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero-sub-text, .header-links {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.header-links, a:link, a:visited {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-weight: 100;
+
+}
+
+.services-header {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.content {
+    color: #1F2937;
+    font-size: 18px;
+}
+
+.signup-banner {
+    background-color: #3882f6;
+    width: 500px;
+}
+
+.banner-text {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.quote-bg {
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}body, .container {
+    display: flex;
+    flex-direction: column;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    flex: 0 1 auto;
+}
+
+/* flex */
+
+
+header {
+    display: flex;
+    height: 600px;
+    border: none;
+    
+}
+
+.nav {
+    display: flex;
+    outline: 2px solid rgb(128, 0, 100);
     width: 500px;
     height: 100px;
 }
 
-.nav-right {
-    display: flex;
-    justify-content: flex-end;
-}
 
 .header-links {
     display: flex;
     align-content: flex-end;
     justify-content: space-around;
     gap: 10px;
-    border: solid green;
+    outline: 2px solid green;
     width: 250px;
     height: 100px;
 }
@@ -40,7 +220,7 @@ header {
  
 .hero-main {
     display: flex;
-    border: solid red;
+    outline: 2px solid red;
     width: 500px;
     height: 60px;
     padding: 20px;
@@ -52,7 +232,7 @@ header {
     align-items: flex-end;
     height: 80px;
     width: 500px;
-    border: solid pink;
+    outline: 2px solid pink;
     padding: 5px;
     margin-top: 0px;
     
@@ -60,23 +240,24 @@ header {
 
 
 .left-content {
-    display: block;
+    display: flex;
     flex: 0 1 auto;
-    border: solid rgb(16, 174, 236);
+    outline: 2px solid rgb(2, 82, 255);
     margin: 5px;
     padding: 20px;
     width: 550px;
     height: 300px;
     align-self: center;
+    justify-content: flex-start;
 
 
 }
-
+/*
 .right-content, .img {
     display: flex;
     align-self: center;
 }
-
+*/
 
 
 .services-header, .content {
