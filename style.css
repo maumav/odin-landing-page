@@ -5,12 +5,6 @@ body, .container {
     flex: 0 1 auto;
 }
 
-.img {
-    display: flex;
-  
-    
-}
-
 
 .sharan-resize {
     width: 500px;
@@ -178,9 +172,8 @@ header {
 
 }
 
-.right-content {
+.right-content, .img {
     display: flex;
-    flex-direction: column;
     align-self: center;
 }
 
