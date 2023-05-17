@@ -126,11 +126,15 @@ header {
     height: 100px;
 }
 
+.nav-right {
+    display: flex;
+    justify-content: flex-end;
+}
 
 .header-links {
     display: flex;
     align-content: flex-end;
-    justify-content: flex-end;
+    justify-content: space-around;
     gap: 10px;
     border: solid green;
     width: 250px;
