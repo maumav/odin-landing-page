@@ -14,9 +14,10 @@ header {
     
 }
 
-.menu {
+.header-links {
     display: flex;
     flex-direction: row;
+
 }
 
  
@@ -30,22 +31,18 @@ header {
     outline: 2px solid pink;
 }
 
-
-.left-content {
+.top-content {
     display: flex;
-    flex: 0 1 auto;
-    outline: 2px solid rgb(2, 82, 255);
-    margin: 5px;
-    padding: 20px;
-    width: 550px;
-    height: 300px;
-    align-self: center;
-    justify-content: flex-start;
-
-
+    align-items: baseline;
+    justify-content: space-around;
 }
 
-
+.sharan-resize {
+    width: 200px;
+    height: 300px;
+    
+    
+}  
 .services-header, .content {
     display: flex;
  
@@ -69,17 +66,15 @@ header {
 
 /* styling */
 
-.sharan-resize {
-    width: 200px;
-    height: 300px;
-    
-}   
+ 
 
 .img-resize {
     width: 100px;
 }
 
 .button-signup-1 {
+    display: flex;
+    align-self: flex-start;
     background-color: #3882F6;
     border: none;
     padding: 10px;
@@ -90,6 +85,7 @@ header {
     font-size: 15px;
     margin: 0px 2px;
     border-radius: 12px;
+
 }
 
 .button-signup-2 {
