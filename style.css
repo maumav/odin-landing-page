@@ -10,35 +10,24 @@ body, .container {
 
 header {
     display: flex;
-    height: 600px;
-    border: none;
+    width: 1900px;
     
 }
 
-
-
-.header-links {
+.menu {
     display: flex;
-    gap: 10px;
-    outline: 2px solid green;
-
+    flex-direction: row;
 }
 
  
 .hero-main {
     display: flex;
     outline: 2px solid red;
-    padding: 20px;
-    margin-bottom: 0px;
 }
 
 .hero-sub-text {
     display: flex;
-    align-items: flex-end;
-    outline: 5px solid pink;
-    padding: 5px;
-    margin-top: 0px;
-    
+    outline: 2px solid pink;
 }
 
 
