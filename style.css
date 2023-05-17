@@ -5,6 +5,102 @@ body, .container {
     flex: 0 1 auto;
 }
 
+/* flex */
+
+
+header {
+    display: flex;
+    height: 600px;
+    border: none;
+    
+}
+
+.nav-left {
+    display: flex;
+    border: solid rgb(128, 0, 96);
+    width: 500px;
+    height: 100px;
+}
+
+.nav-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-links {
+    display: flex;
+    align-content: flex-end;
+    justify-content: space-around;
+    gap: 10px;
+    border: solid green;
+    width: 250px;
+    height: 100px;
+}
+
+ 
+.hero-main {
+    display: flex;
+    border: solid red;
+    width: 500px;
+    height: 60px;
+    padding: 20px;
+    margin-bottom: 0px;
+}
+
+.hero-sub-text {
+    display: flex;
+    align-items: flex-end;
+    height: 80px;
+    width: 500px;
+    border: solid pink;
+    padding: 5px;
+    margin-top: 0px;
+    
+}
+
+
+.left-content {
+    display: block;
+    flex: 0 1 auto;
+    border: solid rgb(16, 174, 236);
+    margin: 5px;
+    padding: 20px;
+    width: 550px;
+    height: 300px;
+    align-self: center;
+
+
+}
+
+.right-content, .img {
+    display: flex;
+    align-self: center;
+}
+
+
+
+.services-header, .content {
+    display: flex;
+ 
+}
+
+.quote-text, .quote-bg {
+    display: flex;
+}
+
+.signup-banner {
+    display: block;
+}
+
+.banner-text {
+    display: flex;
+}
+
+.footer {
+    display: flex;
+}
+
+/* styling */
 
 .sharan-resize {
     width: 500px;
@@ -107,99 +203,4 @@ body, .container {
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
-}
-
-/* flex */
-
-
-header {
-    display: flex;
-    height: 600px;
-    border: none;
-    
-}
-
-.nav-left {
-    display: flex;
-    border: solid rgb(128, 0, 96);
-    width: 500px;
-    height: 100px;
-}
-
-.nav-right {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.header-links {
-    display: flex;
-    align-content: flex-end;
-    justify-content: space-around;
-    gap: 10px;
-    border: solid green;
-    width: 250px;
-    height: 100px;
-}
-
- 
-.hero-main {
-    display: flex;
-    border: solid red;
-    width: 500px;
-    height: 60px;
-    padding: 20px;
-    margin-bottom: 0px;
-}
-
-.hero-sub-text {
-    display: flex;
-    align-items: flex-end;
-    height: 80px;
-    width: 500px;
-    border: solid pink;
-    padding: 5px;
-    margin-top: 0px;
-    
-}
-
-
-.left-content {
-    display: block;
-    flex: 0 1 auto;
-    border: solid rgb(16, 174, 236);
-    margin: 5px;
-    padding: 20px;
-    width: 550px;
-    height: 300px;
-    align-self: center;
-
-
-}
-
-.right-content, .img {
-    display: flex;
-    align-self: center;
-}
-
-
-
-.services-header, .content {
-    display: flex;
- 
-}
-
-.quote-text, .quote-bg {
-    display: flex;
-}
-
-.signup-banner {
-    display: block;
-}
-
-.banner-text {
-    display: flex;
-}
-
-.footer {
-    display: flex;
 }
