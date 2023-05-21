@@ -79,8 +79,14 @@ nav {
 
 .content {
     display: flex;
-    gap: 30px;
-    outline: 2px solid yellow;
+    align-items: flex-start;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 15px;
+    gap: 60px;
+    outline: 2px solid rgb(25, 23, 146);
+  
+    margin: 10px;
 }
 
 .services-content {
