@@ -23,12 +23,12 @@ header {
  
 .hero-main {
     display: flex;
-    outline: 2px solid red;
+    
 }
 
 .hero-sub-text {
     display: flex;
-    outline: 2px solid pink;
+  /*  outline: 2px solid pink; */
 }
 
 .top-content {
