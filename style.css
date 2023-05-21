@@ -31,7 +31,7 @@ nav {
     width: 100%;
     height: fit-content;
     list-style-type: none;
-    outline: 2px solid pink;
+    /* outline: 2px solid pink; */
     margin: 5px 5px 5px 5px;
 
 
@@ -56,10 +56,10 @@ nav {
 .left-content {
     display: block;
     box-sizing: border-box;
-    /* outline: 2px solid red; */
+     outline: 2px solid red; 
     align-items: center;
     justify-content: center;
-    margin: 20px;
+    margin: 15px;
     padding: 0px 0px 0px 200px;
     width: max-content;
      
@@ -69,9 +69,9 @@ nav {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-   /* outline: 2px solid green; */
-    margin: 15px 15px;
-    padding: 0px 0px 0px 200px
+    outline: 2px solid green;
+    margin: 50px 15px;
+    padding: 15px 100px 0px 200px
 }
     
 .top-content {
