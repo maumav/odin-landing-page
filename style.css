@@ -30,7 +30,6 @@ nav {
     flex: wrap;
     width: 100%;
     height: fit-content;
-    gap: 5px;
     list-style-type: none;
     outline: 2px solid pink;
     margin: 5px 5px 5px 5px;
@@ -41,7 +40,6 @@ nav {
  /*
 .hero-main {
     display: flex;
-    outline: 2px solid blue;
     width: 600px;
     
 
@@ -50,19 +48,26 @@ nav {
 
 .hero-sub-text {
     display: flex;
-    outline: 2px solid green;
+
+  
  
 }
-
 */
-.top-content {
-    display: flex;
-    align-self: flex-end;
-    justify-content: flex-start;
- 
-    
+.left-content {
+    display: block;
+    box-sizing: border-box;
+    outline: 2px solid red;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    padding: 0px 0px 0px 200px;
+    width: max-content
+     
 }
 
+.right-content {
+    display: flex;
+}
     
 .sharan-resize {
     width: 300px;
