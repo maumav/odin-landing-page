@@ -71,8 +71,24 @@ nav {
 }  
 .services-header, .content {
     display: flex;
+    align-items: center;
+    justify-content: center;
  
 }
+
+
+.content {
+    display: flex;
+    gap: 30px;
+    outline: 2px solid yellow;
+}
+
+.services-content {
+    display: flex;
+    text-align: justify;
+
+}
+
 
 .quote-text, .quote-bg {
     display: flex;
