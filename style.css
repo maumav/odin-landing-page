@@ -37,26 +37,10 @@ nav {
 
 }
 
- /*
-.hero-main {
-    display: flex;
-    width: 600px;
-    
-
-    
-}
-
-.hero-sub-text {
-    display: flex;
-
-  
- 
-}
-*/
 .left-content {
     display: block;
     box-sizing: border-box;
-     outline: 2px solid red; 
+    /* outline: 2px solid red; */
     align-items: center;
     justify-content: center;
     margin: 15px;
@@ -69,7 +53,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    outline: 2px solid green;
+   /* outline: 2px solid green; */
     margin: 50px 15px;
     padding: 15px 100px 0px 200px
 }
