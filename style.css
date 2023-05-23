@@ -12,7 +12,7 @@ body, .container {
 header {
     display: flex;
     width: 100%;
-    height: 100%px;
+    height: 100%;
     
 }
 
@@ -115,9 +115,21 @@ nav {
 /* styling */
 
  
+.img-resize1 {
+    width: 140px;
+}
 
-.img-resize {
-    width: 100px;
+.img-resize2 {
+    width: 180px;
+}
+
+.img-resize3 {
+    width: 150px;
+    border-radius: 10px;;
+}
+
+.img-resize4 {
+    width: 160px;
 }
 
 .button-signup-1 {
