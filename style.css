@@ -85,13 +85,13 @@ nav {
     padding: 15px;
     gap: 60px;
     outline: 2px solid rgb(25, 23, 146);
-  
     margin: 10px;
 }
 
 .services-content {
     display: flex;
     text-align: justify;
+    max-width: 200px;
 
 }
 
@@ -116,20 +116,27 @@ nav {
 
  
 .img-resize1 {
-    width: 140px;
+    width: 180px;
+    height: 240px;
+    border-radius: 10px;
 }
 
 .img-resize2 {
     width: 180px;
+    height: 240px;
+    border-radius: 10px;
 }
 
 .img-resize3 {
-    width: 150px;
+    width: 180px;
+    height: 240px;
     border-radius: 10px;;
 }
 
 .img-resize4 {
-    width: 160px;
+    width: 180px;
+    height: 240px;
+    border-radius: 10px;
 }
 
 .button-signup-1 {
