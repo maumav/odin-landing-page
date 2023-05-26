@@ -1,8 +1,7 @@
 body, .container {
     display: flex;
     flex-direction: column;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    flex: 1 1 1;
+    font-family: 'Roboto', sans-serif;
     width: 100%;
 }
 
@@ -97,6 +96,7 @@ nav {
 
 .quote-text, .quote-bg {
     display: flex;
+    font-family: 'Roboto', sans-serif;
 }
 
 .signup-banner {
