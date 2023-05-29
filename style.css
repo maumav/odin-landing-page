@@ -113,15 +113,17 @@ nav {
 
 .signup-banner {
     display: flex;
-    width: 1400px;
+    width: 1200px;
     align-self: center;
     justify-content: space-around;
-    outline: 2px solid green;
+    margin: 100px;
 }
 
 .banner-content {
     display: flex;
-    padding-left: 200px;
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-bottom: 30px;
 }
 
 .banner-content-right {
@@ -132,6 +134,9 @@ nav {
 
 .footer {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
 }
 
 /* styling */
