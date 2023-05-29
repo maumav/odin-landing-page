@@ -82,8 +82,9 @@ nav {
     justify-content: center;
     box-sizing: border-box;
     padding: 15px;
+    margin: 20px;
     gap: 60px;
-    outline: 2px solid rgb(25, 23, 146);
+    
     margin: 10px;
 }
 
@@ -97,7 +98,16 @@ nav {
 
 .quote-text, .quote-bg {
     display: flex;
-    font-family: 'Roboto', sans-serif;
+    padding: 15px;
+    margin: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center  
+}
+
+.quote-name {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .signup-banner {
@@ -138,6 +148,8 @@ nav {
     height: 240px;
     border-radius: 10px;
 }
+
+
 
 .button-signup-1 {
     display: flex;
@@ -184,6 +196,7 @@ nav {
     font-size: 24px;
     margin: 15px;
     padding: 5px;
+
 }
 
 .hero-main {
@@ -232,8 +245,10 @@ nav {
 .quote-text {
     color: #1F2937;
     font-size: 36px;
+    font-family: 'Roboto', sans-serif;
     font-weight: lighter;
     font-style: italic;
+
 }body, .container {
     display: flex;
     flex-direction: column;
