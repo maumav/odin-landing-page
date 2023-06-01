@@ -197,6 +197,62 @@ nav {
     border-radius: 12px;
 }
 
+.container-form {
+    margin: 50px;
+}
+
+.signup-btn {
+    color: #F9FAF8;
+    display: flex;
+    align-self: flex-start;
+    background-color: #3882F6;
+    border: none;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 0px 2px;
+    border-radius: 12px;
+}
+
+.cancel-btn {
+    color:#1F2937;
+    align-self: flex-start;
+    background-color: #F9FAF8;
+    border: #1F2937 solid 1px;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 0px 2px;
+    border-radius: 12px;
+}
+
+.signup-btn, .cancel-btn {
+    cursor: pointer;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.cancenl-btn:hover {
+    opacity:1;
+}
 .button a:link a:visited {
     text-decoration: none;
 }
@@ -205,7 +261,7 @@ nav {
     background-color: #1F2937;
     font-size: 18px;
     color: #E5E7EB
-}
+}s
 
 .logo-text {
     display: flex;
