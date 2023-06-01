@@ -250,9 +250,6 @@ input[type=text]:focus, input[type=password]:focus {
   outline: none;
 }
 
-.cancenl-btn:hover {
-    opacity:1;
-}
 .button a:link a:visited {
     text-decoration: none;
 }
@@ -261,7 +258,7 @@ input[type=text]:focus, input[type=password]:focus {
     background-color: #1F2937;
     font-size: 18px;
     color: #E5E7EB
-}s
+}
 
 .logo-text {
     display: flex;
@@ -303,6 +300,7 @@ input[type=text]:focus, input[type=password]:focus {
 
 .signup-banner {
     background-color: #3882f6;
+    border-radius: 15px;
     
     
 }
