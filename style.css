@@ -3,6 +3,7 @@ body, .container {
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
     width: 100%;
+    margin: 0px;
 }
 
 /* flex */
@@ -108,6 +109,7 @@ nav {
 .quote-name {
     display: flex;
     justify-content: flex-end;
+    font-weight: bold;
 }
 
 
